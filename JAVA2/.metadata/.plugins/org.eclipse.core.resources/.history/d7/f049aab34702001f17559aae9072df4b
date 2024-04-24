@@ -1,0 +1,45 @@
+package br.com.fiap.dao;
+
+import java.sql.Connection;
+
+import br.com.fiap.model.Departamento;
+
+public class DepartamentoDao {
+
+
+	private Connection conexao;
+
+
+
+	public DepartamentoDao(Connection conexao) {
+		this.conexao = conexao;
+	}
+
+	public void gravar(Departamento departamento) {
+
+	}
+
+
+
+	public void excluir(Departamento departamento) {
+
+	}
+
+
+
+	public void atualizar(Departamento departamento) {
+
+	}
+
+
+
+	public void listarTodos(Departamento departamento) {
+
+	}
+
+	public Departamento buscarDepartamentoPorId(int id) {
+
+	}
+
+
+}

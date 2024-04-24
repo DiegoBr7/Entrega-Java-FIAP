@@ -3,7 +3,7 @@ package br.com.fiap.model;
 public class Departamento {
 
 	
-	private int id ; 
+	private int id ;
 	private String nome ;
 	public Departamento() {
 	

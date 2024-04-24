@@ -106,7 +106,7 @@ public class FuncionarioDao {
 				funcionario.setNome(rs.getString("nome"));
 				funcionario.setSalario(rs.getDouble("salario"));
 
-				Date data = rs.getDate("data_admissao");
+				Date data = rs.getDate("data admissao");
 				funcionario.setDataAdmissao(data.toLocalDate());
 
 				int idDepartamento = rs.getInt("departamento_id");

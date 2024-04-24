@@ -65,10 +65,14 @@ commit;
 
 select * from dt_departamento ;
 
-insert into tb_funcionario (id , nome , d) values ( sq_fun.nextval , 'Projetos');
-insert into tb_funcionario (id , nome) values ( sq_fun.nextval , 'Projetos');
-insert into tb_funcionario (id , nome) values ( sq_fun.nextval , 'Projetos');
-insert into tb_funcionario (id , nome) values ( sq_fun.nextval , 'Projetos');
+insert into tb_funcionario (id , nome , salario , data_admissao , departamento_id ) values ( sq_fun.nextval , 'Pedro' , 2000.00 , TO_DATE('2014/02/10' , 'YYYY/MM/DD' ) , 2   );
+insert into tb_funcionario (id , nome , salario , data_admissao , departamento_id ) values ( sq_fun.nextval , 'Joao' , 3000.00  , TO_DATE('2014/02/12' , 'YYYY/MM/DD' ) , 3   );
+insert into tb_funcionario (id , nome , salario , data_admissao , departamento_id ) values ( sq_fun.nextval , 'Maria' , 4000.00 , TO_DATE('2014/02/13' , 'YYYY/MM/DD' ) , 4   );
+insert into tb_funcionario (id , nome , salario , data_admissao , departamento_id ) values ( sq_fun.nextval , 'Jose' , 5000.00  , TO_DATE('2014/02/14' , 'YYYY/MM/DD' ) , 1   );
+commit;
+
+select *from tb_funcionario ;
+
 
 
 

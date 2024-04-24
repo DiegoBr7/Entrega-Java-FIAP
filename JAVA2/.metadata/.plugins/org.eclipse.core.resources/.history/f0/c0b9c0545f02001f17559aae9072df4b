@@ -15,7 +15,8 @@ public class RhApp {
 	public static void main(String[] args) {
 		
 		
-	Funcionario funcionario = new Funcionario();
+		Funcionario funcionario = new Funcionario();
+
 	funcionario.setNome("John");
 	funcionario.setSalario(3255.0);
 	funcionario.setDataAdmissao(LocalDate.of(2024, 10, 10));

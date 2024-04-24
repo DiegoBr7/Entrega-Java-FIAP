@@ -8,18 +8,18 @@ public class Funcionario {
 	private String nome ;
 	private Double salario ;
 	private LocalDate dataAdmissao ;
-	private Departamento departamento ;
+	private Departamento departemento ;
 	public Funcionario() {
 		
 		
 	}
-	public Funcionario(int id, String nome, Double salario, LocalDate dataAdmissao, Departamento departamento) {
+	public Funcionario(int id, String nome, Double salario, LocalDate dataAdmissao, Departamento departemento) {
 		super();
 		this.id = id;
 		this.nome = nome;
 		this.salario = salario;
 		this.dataAdmissao = dataAdmissao;
-		this.departamento = departamento;
+		this.departemento = departemento;
 	}
 	public int getId() {
 		return id;
@@ -45,16 +45,11 @@ public class Funcionario {
 	public void setDataAdmissao(LocalDate dataAdmissao) {
 		this.dataAdmissao = dataAdmissao;
 	}
-	public Departamento getDepartamento() {
-		return departamento;
+	public Departamento getDepartemento() {
+		return departemento;
 	}
-	public void setDepartemento(Departamento departamento) {
-		this.departamento = departamento;
-	}
-	@Override
-	public String toString() {
-		return "Funcionario [id=" + id + ", nome=" + nome + ", salario=" + salario + ", dataAdmissao=" + dataAdmissao
-				+ ", departamento nome =" + departamento.getNome() + "]";
+	public void setDepartemento(Departamento departemento) {
+		this.departemento = departemento;
 	}
 	 
 	
