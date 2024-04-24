@@ -1,0 +1,7 @@
+INDEX VERSION 1.134+C:\Users\Diego\OneDrive\Documentos\PROJETO JAVA FIAP 25_04_2024\PROJETO JAVA\Cap07\.metadata\.plugins\org.eclipse.jdt.core
+10371403.index
+1865797976.index
+1599957513.index
+1498675477.index
+677010079.index
+2347670703.index

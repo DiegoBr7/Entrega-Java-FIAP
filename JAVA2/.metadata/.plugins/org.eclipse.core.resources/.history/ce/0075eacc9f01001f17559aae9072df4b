@@ -1,0 +1,32 @@
+package br.com.fiap.dao;
+
+import br.com.fiap.model.Funcionario;
+
+public class FuncionarioDao {
+
+
+
+
+	public void gravar(Funcionario funcionario) {
+
+	}
+
+
+	public void excluir(Funcionario funcionario) {
+
+	}
+
+
+	public void atualizar(Funcionario funcionario) {
+
+	}
+
+
+	public void listarTodos() {
+
+	}
+
+	public void buscarFuncionarioPorId(int id) {
+
+	}
+}
